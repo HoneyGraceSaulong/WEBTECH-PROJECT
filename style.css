@@ -1,0 +1,157 @@
+/* GLOBAL --------------------------------------------- */
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background-color: #faf7f2;
+    color: #4d463f;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: #4d463f;
+}
+
+/* NAVBAR --------------------------------------------- */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 50px;
+    background: #faf7f2;
+    position: sticky;
+    top: 0;
+}
+
+.brand {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.nav-center a {
+    margin: 0 18px;
+    font-size: 15px;
+}
+
+.nav-right a,
+.nav-right button {
+    font-size: 14px;
+}
+
+.signup {
+    background: #cbb89d;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/* HERO SECTION ---------------------------------------- */
+
+.hero {
+    text-align: center;
+    padding: 140px 30px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+    opacity: 0.8;
+}
+
+.hero-btn {
+    margin-top: 25px;
+    background: #cbb89d;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+/* SECTIONS ------------------------------------------- */
+
+.section {
+    padding: 100px 50px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.section-sub {
+    max-width: 700px;
+    margin: auto;
+    opacity: 0.7;
+}
+
+/* SERVICE CARDS -------------------------------------- */
+
+.card-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin-top: 50px;
+}
+
+.card {
+    width: 290px;
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* CONTACT FORM --------------------------------------- */
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid #d4c8ba;
+    background: #fffdf9;
+}
+
+.submit-btn {
+    background: #cbb89d;
+    border: none;
+    padding: 14px;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/* FOOTER --------------------------------------------- */
+
+.footer {
+    padding: 40px;
+    text-align: center;
+    background: #f3ece4;
+    margin-top: 70px;
+    font-size: 14px;
+}
